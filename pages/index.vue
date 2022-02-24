@@ -1,7 +1,7 @@
 <template>
   <main class="flex flex-col w-full h-full justify-evenly items-center mt-3">
     <div class="flex flex-col items-center justify-center">
-      <p class="mb-6">Film Puff Logo</p>
+      <p class="mb-9">Film Puff Logo</p>
       <p class="text-justify mb-3">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis nam
         ex sit nobis commodi obcaecati, maiores ab dolorem blanditiis
@@ -14,9 +14,11 @@
       </p>
     </div>
     <div class="flex flex-col">
-      <button class="bg-gray-200 px-9 py-3 rounded mb-3">Movie List</button>
+      <button class="bg-gray-200 px-9 py-3 rounded mb-3">
+        <nuxt-link to="/movies">Movie List</nuxt-link>
+      </button>
       <button class="border border-gray-200 px-9 py-3 rounded">
-        About Film Puff
+        <nuxt-link to="/movies">About Film Puff</nuxt-link>
       </button>
     </div>
   </main>
