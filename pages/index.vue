@@ -18,7 +18,7 @@
         <nuxt-link to="/movies">Movie List</nuxt-link>
       </button>
       <button class="border border-gray-200 px-9 py-3 rounded">
-        <nuxt-link to="/about">About Film Puff</nuxt-link>
+        <nuxt-link to="/movies">About Film Puff</nuxt-link>
       </button>
     </div>
   </main>

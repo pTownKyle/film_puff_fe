@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Film Puff',
+    title: 'film_puff_fe',
     htmlAttrs: {
       lang: 'en',
     },
